@@ -1,0 +1,566 @@
+/* 4 - External */
+body {
+    padding-bottom: 500px;
+}
+
+h3 {
+    color: green;
+}
+
+/* p {
+    color: blueviolet;
+}*/
+
+/* Algum comentário*/
+/* segundo comentário */
+
+/* classes */
+
+.paragrafo {
+    background-color: black;
+    color: aqua;
+    padding: 5px;
+}
+
+/* id */
+#Exclusive-title {
+    background-color: purple;
+    color: yellow;
+    padding: 10px;
+    font-size: 40px;
+}
+
+/* Multiplas regras, ordem do css 10 */
+
+/* tag 10 */
+h2 {
+    border-bottom: 2px solid red;
+}
+/* class 10 */
+.titulo {
+    border-bottom: 3px solid blue;
+}
+/* id 10 */
+#algum-titulo {
+    border-bottom: 4px solid green;
+}
+
+/* nome de cores 11 */
+.color-name {
+    color:rgb(203, 87, 110);
+}
+
+/* hex 12 */
+.hex {
+    color: #55a398;
+}
+
+/* hex 12 */
+
+.hex2 {
+    color: #0e255d34;
+}
+/* Aprofundado em hex 13*/
+
+.simple_hex {
+    color: #333
+}
+/* Aprofundado em hex 13*/
+.simple_hex_2 {
+    color: #A5F;
+}
+
+/* RGB 14 */
+.rgb {
+    color: rgb(255, 0, 0);
+}
+
+.mixed_rgb {
+    color: rgb(199, 21, 47)
+}
+
+/* RGBA 15 */
+.rgba {
+    color: rgba(255, 0, 0, 0.3);
+}
+
+/* HSL 16 */
+.hsl {
+    color: hsl(100, 20%, 50%);
+}
+
+.hsl_2 {
+    color: hsl(200, 61%, 17%);
+}
+
+/* background 17 */
+.bg {
+    background-color: #000;
+    color: yellow;
+}
+
+.bg-2 {
+    background-color: rgb(199, 21, 47);
+    color: #55a398;
+}
+
+/* background opacity 18 */
+.bg-opacity {
+    background-color: green;
+    opacity: 0.2;
+
+}
+
+.bg-opacity-2 {
+    background-color: #999;
+    color: #000;
+    opacity: 0.8;
+
+}
+
+/* rgba com opacity 19 */
+.rgba-opacity  {
+    background-color: rgba(90, 120, 20, 0.5);
+    color: #000
+}
+
+/* bg imagem 20 */
+.bg-imag
+ {
+    background-image: url("../IMG/ceu\ estrelado.jpg");
+    padding: 20px;
+    color: #fff;
+ }
+
+ /* centralizando o bg imagem 21 */
+
+ .not-centered-bg,
+ .centered-bg {
+    height: 400px;
+    width: 400px;
+    background-image: url("../IMG/Flores.jpg");
+ }
+ .not-centered-bg,
+ .centered-bg {
+    background-position: center;
+    background-size: cover;
+ } 
+
+  /* largura e altura 22 */
+
+  .height-width {
+    height: 200px;
+    width: 100px;
+    background-color: red;
+  }
+
+  .height-width-2 {
+    height: 200px;
+    background-color: #333;
+  }
+
+  /* padding 23 */
+
+  .without-padding,
+  .padding  {
+    background-color: #111;
+    color: #fff;
+  }
+
+.padding {
+    background-color: #300;
+    padding: 20px;
+}
+
+/* padding individual 24 */
+
+.padding-individual {
+    background-color: #222;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+/*shorthand-padding 25*/
+
+.shorthand-padding {
+    background-color: #444;
+    padding: 6px 12px 18px 24px;
+}
+
+.shorthand-padding-2 {
+    background-color: #555;
+    padding: 10px 20px;
+   
+    /*padding: 10px 20px 10px 20px;*/
+}
+
+/* padding com width 26 */
+
+.without-border-box {
+    background-color: #444;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+
+}
+
+.border-box {
+    background-color: #932727;
+    color: #fff;
+    width: 500px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+/* border 27 */
+
+.border {
+    border: 5px solid red;
+    padding: 10px;
+}
+
+.border-2 {
+    border: 2px dotted #931;
+    padding: 25px;
+}
+
+/* border individual 28 */
+
+.border-left {
+    border-left: 3px solid red;
+    background-color: #777474;
+    padding: 25px;
+    color: #fff;
+}
+
+
+.border-bottom {
+    border-bottom: 5px double #399;
+    background-color: #d9d5d5;
+    padding: 25px;
+    color: #333;
+}
+
+/* border arrendondada 29 */
+
+.rounded-p {
+    border: 4px solid blue;
+    background-color: #111;
+    color: blue;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.rounded-p-2 {
+    background-color: #111;
+    color: blue;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+/* margem 30 */
+
+.margin {
+    margin: 10px;
+    background-color: #222;
+
+}
+
+.margin-top {
+    margin-top: 50px;
+    background: #444;
+    padding: 10px;
+}
+
+.margin-shorthand {
+    background-color: #666;
+    margin: 5px 10px 15px 20px;
+}
+
+/* box model 31 */
+
+.box-model {
+    
+    margin: 20px;
+    padding: 15px 25px;
+    border: 3px solid #845;
+    border-radius: 7px;
+    width: 200px;
+    height: 300px;
+    font-size: 35px;
+
+}
+    
+/* box model Desafio 03 - 32 */
+
+#box-model-Desafio-03 {
+    margin: 20px;
+    padding: 15px;
+    border: 5px solid #3498db;
+    outline: 5px solid #e74c3c; /* Cor do outline */
+    background-color: #ecf0f1; /* Cor de fundo */
+}
+
+.titulo {
+    background-color: blue; 
+    color: #9e9c9c; /* Cor do texto */
+    border: none;
+}
+
+/* text alignment 33 */
+.text-aligned {
+    text-align: right;
+}
+
+.container-center {
+    text-align: center;
+    width: 300px;
+    border: 1px solid red;
+}
+
+/* text decoration 34 */
+
+.underline {
+    text-decoration: underline;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.remove-underline {
+    text-decoration: none;
+    color: red;
+}
+
+/* text transform 35 */
+
+.upper {
+    text-transform: uppercase;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+/* letter  spacing 36 */
+.spacing {
+    letter-spacing: 5px;
+}
+
+/* fontes 37 */
+
+.serif {
+    font-family: Georgia;
+}
+
+.sans-serif {
+    font-family: Helvetica;
+}
+
+.monospace {
+    font-style: "Courier New";
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.Fantasy {
+    font-family: fantasy;
+}
+
+/* font style 38 */
+.italic {
+    font-style: italic;
+}
+
+.oblique{
+    font-style: oblique;
+}   
+
+/* font weight 39 */
+
+.thin,
+.bold,
+.bolder {
+    font-family: Helvetica;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.bolder {
+    font-weight: 900;
+}
+
+/* font size 40 */
+
+.small {
+    font-size: 6px;
+    background-color: pink;
+}
+
+.big {
+    font-size: 78px;
+    background-color: pink;
+}
+
+/* display 41 */
+
+.inline-box-01{
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    margin: 10px;
+    
+}
+
+.inline-box-02{
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    margin: 10px;
+    display: inline-block;
+}
+
+.block {
+    background-color: #3498db;
+    display: block;
+    margin: 10px;
+}
+
+/* Escondendo Elementos 42 */
+.invisible {
+    display: none;
+}
+
+/* static 43 */
+
+.static {
+    position: static;
+    background-color: #391;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+}
+
+
+/* relative 44 mudou a posição refrente ao static devido ao top e left*/
+.relative {
+    position: relative;
+    background-color: rgb(153, 17, 51);
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 40px;
+}
+
+/* absolute 45 ele fica no top da tela a direita */
+
+.absolute {
+
+    position: absolute;
+    background-color: #964;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    right: 2px;
+}
+
+/* relative com absolute 46 */
+
+.relative-container {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: relative;
+
+}
+
+.absolute-1,
+.absolute-2 {
+    width: 50px;
+    height: 50px;
+    background-color: #391;
+    position: absolute;
+}
+
+.absolute-1 {
+    top: 10px;
+    left: 10px;
+}
+
+.absolute-2 {
+    bottom: 10px;
+    right: 10px;
+}
+
+/* fixed 47 */
+
+.fixed{
+    width: 100px;
+    height: 100px;
+    background-color: #851;
+    color: #fff;
+    border: 1px solid blue;
+    position: fixed;
+    top: 50px;
+    right: 100px;
+} 
+
+/* sticky 48 */
+
+.sticky {
+    width: 100px;
+    height: 100px;
+    background-color: #994;
+    color: #fff;
+    border: 1px solid green;
+    position: sticky;
+    top: 10px;
+}
+
+/* z-index 49 */
+
+.absolute-3,
+.absolute-4,
+.absolute-5 {
+    width: 50px;
+    height: 50px;
+    background-color: #123;
+    color: #fff;
+    position: absolute;
+}
+
+
+.absolute-3 {
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+}
+
+.absolute-4 {
+    top: 10px;
+    left: 10px;
+    background-color: #246;
+    z-index: 2;
+}
+
+.absolute-5 {
+    top: 20px;
+    left: 20px;
+    background-color: #453;
+    z-index: 1;
+}
